@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="navbar">
+        <header>
+            <img class="square" class="logo" alt="logo" src="assets/Group 114.png">
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About us</a></li>
+
+                </ul>
+            </nav>
+            <a class="cta" href="#"><button>Start a company</button></a>
+            <a onclick="openNav()" class="menu" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    fill="black" width="40px" height="40px">
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path
+                        d="M5 15h14c.55 0 1-.45 1-1s-.45-1-1-1H5c-.55 0-1 .45-1 1s.45 1 1 1zm0 4h14c.55 0 1-.45 1-1s-.45-1-1-1H5c-.55 0-1 .45-1 1s.45 1 1 1zm0-8h14c.55 0 1-.45 1-1s-.45-1-1-1H5c-.55 0-1 .45-1 1s.45 1 1 1zM4 6c0 .55.45 1 1 1h14c.55 0 1-.45 1-1s-.45-1-1-1H5c-.55 0-1 .45-1 1z" />
+                </svg></a>
+        </header>
+        <div id="mobile__menu" class="overlay">
+            <a class="close" onclick="closeNav()">&times;</a>
+            <div class="overlay__content">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About us</a></li>
+            </div>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mobile__menu").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("mobile__menu").style.width = "0";
+            }
+        </script>
+    </section>
+    <section class="search">
+        <!-- HTML -->
+        <div class="search-container">
+            <a href="#"><i class="fa fa-search"></i></a>
+            <input type="search" placeholder="Search a Term | Topic" name="search">
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="hero_left">
+            <p class="shead">Claim a free Quote</p>
+            <h3><span class="und">Get started</span> on fulfilling your Dubai or UAE dream. </h3>
+            <p class="shead">UAE & Offshore Company</p>
+            <img src="assets/ILLUSTRATION.png" class="hero_img">
+            <p id="hcont">We provide you with information about UAE or Offshore Company Registration & help you setup
+                your company with a bank account and visas.</p>
+            <button class="lb">Start a company</button><button class="rb">Review a company</button>
+        </div>
+    </section>
+
+    <section class="tutorial">
+        <div class="second-part">
+            <p class="tut-intro-1"><span class="und">Dedicated </span></p>
+            <p class="tut-intro-1">to our mission we are</p>
+            <p id="tut-intro-2">Our services include Company Formation & Renewals, Trust & Fiduciary, Tax Residency
+                Setup With Family, Bank Accounts, Remote Management, Stock Trading Platforms, Ownership Solutions</p>
+        </div>
+    </section>
+    
+    <section class="zone">
+        <div class="zone_1">
+            <img class="square" src="assets/dungeon.png">
+            <h2>UAE Free Zone Company</h2>
+            <p>Your registration agent, will answer all
+                of your questions and help you to reach
+                a conclusion that meets your objectives
+                of investing in the UAE.</p>
+            <a href="#">Get Started</a>
+        </div>
+        <div class="zone_1">
+            <img class="square" src="assets/dungeon.png">
+            <h2>UAE Free Zone Company</h2>
+            <p>Your registration agent, will answer all
+                of your questions and help you to reach
+                a conclusion that meets your objectives
+                of investing in the UAE.</p>
+            <a href="#">Get Started</a>
+        </div>
+        <div class="zone_1">
+            <img class="square" src="assets/dungeon.png">
+            <h2>UAE Free Zone Company</h2>
+            <p>Your registration agent, will answer all
+                of your questions and help you to reach
+                a conclusion that meets your objectives
+                of investing in the UAE.</p>
+            <a href="#">Get Started</a>
+        </div>
+    </section>
+
+
+    <section class="panel">
+        <div class="panel_a">
+            <div class="tx">
+                <p>Learn the ways in which you can benefit
+                    from a UAE/Offshore Company. Then get
+                    started on fulfilling your UAE dream.</p>
+                <a href="#">Claim a free Quote</a>
+            </div>
+            <div class="card">
+                <img class="square" src="assets/ILLUSTRATION 03  1.png" width="250px">
+                <h3>Bank account setup</h3>
+                <p>There are many banks in the United
+                    Arab Emirates [UAE]. Both locally
+                    owned and branches of
+                    multinational ones. Foreign banks
+                    adjust according to their parent s
+                    strategies and have changed local
+                    requirements overnight in the past.
+                    But we are here to help you.</p>
+                <a href="">Learn more<img class="square" src="assets/Vector.png" id="arrow"></a>
+            </div>
+            <div class="card">
+                <img class="square" src="assets/ILLUSTRATION 03  1.png" width="250px">
+                <h3>Bank account setup</h3>
+                <p>There are many banks in the United
+                    Arab Emirates [UAE]. Both locally
+                    owned and branches of
+                    multinational ones. Foreign banks
+                    adjust according to their parent s
+                    strategies and have changed local
+                    requirements overnight in the past.
+                    But we are here to help you.</p>
+                <a href="">Learn more<img class="square" src="assets/Vector.png" id="arrow"></a>
+            </div>
+
+
+        </div>
+
+        <div class="panel_a">
+            <div class="card">
+                <img class="square" src="assets/ILLUSTRATION 03  1.png" width="250px">
+                <h3>Bank account setup</h3>
+                <p>There are many banks in the United
+                    Arab Emirates [UAE]. Both locally
+                    owned and branches of
+                    multinational ones. Foreign banks
+                    adjust according to their parent s
+                    strategies and have changed local
+                    requirements overnight in the past.
+                    But we are here to help you.</p>
+                <a href="">Learn more<img class="square" src="assets/Vector.png" id="arrow"></a>
+            </div>
+            <div class="card">
+                <img class="square" src="assets/ILLUSTRATION 03  1.png" width="250px">
+                <h3>Bank account setup</h3>
+                <p>There are many banks in the United
+                    Arab Emirates [UAE]. Both locally
+                    owned and branches of
+                    multinational ones. Foreign banks
+                    adjust according to their parent s
+                    strategies and have changed local
+                    requirements overnight in the past.
+                    But we are here to help you.</p>
+                <a href="">Learn more<img class="square" src="assets/Vector.png" id="arrow"></a>
+            </div>
+            <div class="tx">
+                <p>Learn the ways in which you can benefit
+                    from a UAE/Offshore Company. Then get
+                    started on fulfilling your UAE dream.</p>
+                <a href="#">Claim a free Quote<img class="square" src="assets/Vector.png" id="arrow"></a>
+            </div>
+
+        </div>
+    </section>
+    <section class="tutorial2">
+        <h3 class="tut-intro-1">Most <span class="und">popular affordable pricing</span> per
+            jurisdictions are brought to you to
+            kick off your adventure.</h3>
+    </section>
+    <section class="footer">
+        <div class="foot">
+            <h3>
+                Read about our blogs for more
+                information on our processes
+            </h3>
+
+            <div class="log">
+                <img class="square" src="assets/Vector-4.png" alt="">
+                <div class="cont">
+                    <p>
+                        How to start a company
+                        formation in Dubai
+                    </p>
+                    <span class="time">
+                        5 Minutes
+                        </>
+                </div>
+            </div>
+            <div class="log">
+                <img class="square" src="assets/Vector-4.png" alt="">
+                <div class="cont">
+                    <p>
+                        How to start a company
+                        formation in Dubai
+                    </p>
+                    <span class="time">
+                        5 Minutes
+                    </span>
+                </div>
+            </div>
+            <div class="log">
+                <img class="square" src="assets/Vector-4.png" alt="">
+                <div class="cont">
+                    <p>
+                        How to start a company
+                        formation in Dubai
+                    </p>
+                    <span class="time">
+                        5 Minutes
+                    </span>
+                </div>
+            </div>
+            <h3>
+                Read about our blogs for more
+                information on our processes
+            </h3>
+            <div class="log2">
+                <img class="circle" src="assets/Vector-3.png" alt="">
+                <div class="cont">
+                    <p>
+                        <em class="bold">"</em> I am very happy with them. I’ll
+                        continue to use their services in
+                        future & highly recommend them
+                        to anyone,<em class="bold">"</em>
+                    </p>
+                    <span class="name">
+                        Muhib Abrar
+                    </span>
+                </div>
+            </div>
+            <div class="log2">
+                <img class="circle" src="assets/Vector-3.png" alt="">
+                <div class="cont">
+                    <p>
+                        <em class="bold">"</em> I am very happy with them. I’ll
+                        continue to use their services in
+                        future & highly recommend them
+                        to anyone,<em class="bold">"</em>
+                    </p>
+                    <span class="name">
+                        Muhib Abrar
+                    </span>
+                </div>
+            </div>
+            <div class="log2">
+                <img class="circle" src="assets/Vector-3.png" alt="">
+                <div class="cont">
+                    <p>
+                        <em class="bold">"</em> I am very happy with them. I’ll
+                        continue to use their services in
+                        future & highly recommend them
+                        to anyone,<em class="bold">"</em>
+                    </p>
+                    <span class="name">
+                        Muhib Abrar
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <h3>
+                Get to know the whole us and
+                more of our services
+            </h3>
+            <div class="linkwrap">
+                <div class="btlinks">
+                    <h4>Services</h4>
+                    <ul class="bt">
+                        <li><a href="#">Products</a> </li>
+                        <li><a href="#">Solutions </a></li>
+                        <li><a href="#">Assurance</a> </li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Working at Varal-Singhania</a></li>
+                    </ul>
+                </div>
+                <div class="btlinks">
+                    <h4>Policies</h4>
+                    <ul class="bt">
+                        <li><a href="#">Privacy Policies</a> </li>
+                        <li><a href="#">Terms & Conditions </a></li>
+
+                    </ul>
+                </div>
+                <div class="btlinks">
+                    <h4>About</h4>
+                    <ul class="bt">
+                        <li><a href="#">About us </a> </li>
+                        <li><a href="#">Contact Us </a></li>
+                    </ul>
+                </div>
+                <div class="btlinks">
+                    <h4>Address</h4>
+                    <ul class="bt">
+                        <li><a href="#">608 One Lake Plaza, Cluster T,
+                                Al Sarayat Street, Jumeirah
+                                Lake Towers</a> </li>
+                        <li><a href="#">Dubai </a></li>
+                        <li><a href="#">United Arab Emirates</a> </li><br><br>
+                        <li><a href="#">Office Hours: Sunday to
+                                Thursday 8:30 AM to 6:30 PM
+                                [GMT+4]</a> </li>
+                        <li><a href="#">M: +971 55 794 2016</a> </li>
+                        <li><a href="#">M: +971 4 447 2061</a> </li>
+                    </ul>
+                </div>
+                <div class="btlinks">
+                    <h4>Subscribe Now</h4>
+                    <ul class="bt">
+                        <p>Subscribe now to receive our
+                            Newsletters about amazing
+                            opportunities in Dubai</p>
+
+                    </ul>
+                    <form class="smf" action="">
+                        <input type="text" placeholder="Enter email address">
+                        <button type="submit">
+                            <img src="assets/Group 34.png" alt="buttonpng" border="0" width="20px">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+
+    </section>
+</body>
+
+</html>

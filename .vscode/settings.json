@@ -1,0 +1,8 @@
+{
+    "workbench.editor.autoLockGroups": {
+        "default": true
+    },
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true
+}
